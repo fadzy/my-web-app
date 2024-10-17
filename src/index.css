@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif; /* Simplified font family */
+  background-color: #ff69b4; /* Solid pink background */
+  color: #333; /* Dark text color for contrast */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Courier New', monospace; /* Code font */
+  background-color: rgba(255, 255, 255, 0.8); /* Light background for code */
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.vertical-center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* Center horizontally and vertically */
+}
+
+.todo-container {
+  border: 1px solid #ddd; /* Subtle border for container */
+}
+
+.struck {
+  text-decoration: line-through;
+  color: gray; /* Optional: Change color for completed tasks */
+}
+
+
+@media (max-width: 600px) {
+  body {
+    font-size: 14px; /* Responsive font size */
+  }
+}
