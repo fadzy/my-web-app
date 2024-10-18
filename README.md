@@ -1,4 +1,4 @@
-This is my first app using react its simple enables you to add tasks include date and time .
+This is my first web app js, css, its simple enables you to add tasks include date and time .
 
 
 Check it out here 
