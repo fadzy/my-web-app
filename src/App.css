@@ -100,3 +100,11 @@
 .todo-item button:hover {
   background-color: #2980b9; /* Darker color on hover */
 }
+.footer {
+  background-color: #f8f9fa; /* Light background */
+  padding: 10px;
+  position: fixed; /* Keep it at the bottom */
+  left: 0;
+  right: 0;
+  bottom: 0;
+}

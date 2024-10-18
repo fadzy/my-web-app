@@ -44,6 +44,9 @@ function App() {
         toggleTaskStatus={toggleTaskStatus} // Pass toggle function
         removeTaskCallback={removeTask} // Pass remove function
       />
+      <footer className="footer mt-4">
+        <p>Created by Your Name</p> { 'Fadzai Ethel'}
+      </footer>
     </div>
   );
 }
