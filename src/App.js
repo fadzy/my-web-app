@@ -45,7 +45,7 @@ function App() {
         removeTaskCallback={removeTask} // Pass remove function
       />
       <footer className="footer mt-4">
-        <p>Created by Your Name</p> { 'Fadzai Ethel'}
+        <p>Created by</p> { 'Fadzai Ethel'}
       </footer>
     </div>
   );
